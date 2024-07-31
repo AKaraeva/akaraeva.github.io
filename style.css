@@ -1,0 +1,146 @@
+header{
+    background-color: black; 
+    width: 100%;
+    display:inline-flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    height: 50px;
+}
+
+.nav-items{
+    display: flex;
+    text-decoration: underline;
+    justify-content: flex-end;
+    padding: 10px;
+    }
+
+.box{
+    display: inline-block; 
+    color: white;
+    padding: 10px;
+}
+
+.bg_image{
+margin: 10px;
+display: flex;
+position: relative;
+height: 700px;
+width: 100%;
+align-content: center;
+justify-content: center;
+background-color: black;
+}
+
+#text{
+    display: flex;
+align-content: center;
+justify-content: center;
+}
+
+#text2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.text1{
+    background-color: black;
+    color: white;
+    width: 1200px;
+    text-align: center;
+    position: absolute;
+    top: 370px;
+}
+
+.text2{
+    background-color: black;
+    color: white;
+    width: 1200px;
+    text-align: center;
+    position: absolute;
+}
+.teas{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.teas li{
+    margin-top: 100px;
+    display: inline-flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative
+
+
+}
+
+ .teas img{
+    
+    height:200px;
+    width:300px;
+}
+
+.teas h4{ 
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:#000;
+    color:#fff;
+    width:100%;
+    margin:0;
+    padding:10px
+  }
+
+  .location{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1mlwimt*_gcl_aw*R0NMLjE3MjIxOTI5MDcuQ2p3S0NBancySmUxQmhBZ0Vpd0FwM0tZNzdfTllzVVRjQTV1MmloRmctSXdTMzVMVG5OYVlqWFB6djNTTUtxNUE1c3J5QWYtU00zTFRob0N4UFlRQXZEX0J3RQ..*_gcl_au*MTM5MjQwODkyOC4xNzE5OTEwMDI3*_ga*MTA0MzI4OTI1Ny4xNzE5OTA5MzY3*_ga_3LRZM6TM9L*MTcyMjQ1MDE0NS41MS4xLjE3MjI0NTUwMDUuMC4wLjA.');
+    background-size: cover;
+    color: white;
+  }
+
+  .location h2{
+    text-align: center;
+    width:100%;
+    flex: 0 0 auto;
+}
+
+.location .div-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.location div {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    width: 300px;
+    height: 200px;
+    opacity: 1;
+    text-align: center;
+    gap:30px;
+}
+
+p, h3 {
+    line-height: 2;
+}
+
+
+
